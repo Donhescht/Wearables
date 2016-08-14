@@ -12,7 +12,7 @@ README.md = This file
 
 CodeBook.md = Contain code information about run_analysis.R
 
-TidyDataSet.csv = The main output of this project. 
+TidyDataSet.txt = The main output of this project. 
 
 WeareablesAnalysis.Pproj = is a RStudio project file.
 
@@ -80,7 +80,7 @@ The main design choice was whether to display the tidy set as wode or long
 data.  After experimenting with both it was decided to the wide dataset as 
 it more closely matches the principle of one variable per column.  Secondly,
 it allowed easy comparison of subject and activty values as they are in the 
-same column.  Thirdly, the dataset was saved in a csv allowing easy 
+same column.  Thirdly, the dataset was saved in a csv (txt) allowing easy 
 Excel viewing and pivot table viewing.
 
 OUTPUT

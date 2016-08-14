@@ -57,4 +57,4 @@ tidyMeanFeatures = dcast(meltedFeatures ,Activity+Subject ~ variable, mean)
 
 
 # Write tidy data set  
-write.csv(tidyMeanFeatures,"TidyDataSet.csv")
+write.table(tidyMeanFeatures,"TidyDataSet.txt", row.names = FALSE )
